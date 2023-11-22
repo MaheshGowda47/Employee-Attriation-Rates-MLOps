@@ -3,39 +3,73 @@
 
 
 **Age** -> age of particular employee [continues_numeric_data]
+
 **Attrion** -> It is an target variable wheather the employee is in compamny or not [Target-variable] [Binary_ordinal_str_data] 
+
 **BusinessTravel** -> Travel of employee for business perpose [multiclass_str_data]
+
 **DailyRate** -> might represent the daily salary or pay rate of employees [continous_numeric_data]
+
 **Department** -> department of an employee [multiclass_str_data]
+
 **DistanceFromHome** -> Each value represents the distance from a location (presumably a workplace) to an employee's home [numeric_data]
+
 **Education** -> It appears to represent some form of educational levels or categories.[numeric_data]
+
 **EducationField** -> The education field of employee graducated. [multiclass_str_data]
+
 **EmployeCount** -> Number of employee [not_important] [drop_column]
+
 **EmployeeNumber** -> ordered number 1,2,3... [not_important] [drop_column]
+
 **EvironmentSatisfaction** -> The values might represent categories like "Very Dissatisfied," "Dissatisfied," "Satisfied," and "Very Satisfied," [ordinal_numeric_data]
+
 **Gender** -> Gender of employee [binary_str_data]
+
 **HourlyRate** -> likely represents hourly wage rates for employees. [continues_numberic_data]
+
 **JobInvolvement** -> likely represents different levels or categories of job involvement. For example, a value of "1" might represent the lowest or least level of job involvement, while "4" might represent the highest [multiclass_numeric_data]
+
 **JobRole** -> which consists of job roles or job titles [multiclass_str_data]
+
 **JobLevel** -> the job level of employee [multiclass_numeric_data] 
+
 **JobSatisfaction** -> level of satisfaction in the job of an employe [multiclass_numeric_data]
+
 **MaritalStatus** -> Marital status of an employee [multiclass_numeric_data]
+
 **MonthlyIncome** -> monthly oncome of an employee [continous_numeric_data]
+
 **MonthlyRate** -> like a dataset of monthly rates for some kind of financial or economic data [continous_numeric_data]
+
 **NumCompaniesWorked** -> it represents the number of companies that individuals have worked for [continous_numeric_data]
+
 **Over18** -> says the employee above 18 or not [not_important] [drop_column]
+
 **OverTime** -> over time work of an employee [binary_str_data]
+
 **PercentSalaryHike** -> percentage increase in salary for individuals [continous_numeric_data]
+
 **PerformanceRating** -> rating for an employee based on performance [continous_numeric_data]
+
 **RelationshipSatisfaction** -> Rating in his relationship [multiclass_numeric_data]
+
 **StandardHours** -> standard hours working of an employee [not_important] [drop_colum]
+
 **StockOptionLevel** -> stock option of an employee [multiclass_numeric_data]
+
 **TotalWorkingYears** -> work experience of an employee [continous_numeric_data]
+
 **TrainingTimesLastYear** -> training time of an employee last year [multivlass_numeric_data]
+
 **WorkLifeBalance** -> how well individuals feel they can balance their work-related responsibilities with their personal or family life. [multiclass_numeric_data]
+
 **YearsAtCompany** -> current working time in years of an employee [continous_numeric_data]
+
 **YearsInCurrentRole** -> number working in the same role of an employee [continous_numeric_data]
+
 **YearsSinceLastPromotion** -> number of working period in years after last promation [continous_numeric_data]
+
 **YearsWithCurrManager** -> number of years spending with current manager [continous_numeric_data]
 
 
